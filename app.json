@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "IRC 2018 Abidjan",
+    "description": "International Rubber Conference and IRRDB Annual Meeting.",
+    "slug": "irc-2018-abidjan",
+    "privacy": "public",
+    "sdkVersion": "30.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "androidStatusBarColor": "#2EA550",
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#2EA550"
+    },
+    "android": {
+      "versionCode": 2,
+      "package": "ci.fkobon.irc2018abidjan"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "ci.fkobon.irc2018abidjan"
+    }
+  }
+}
